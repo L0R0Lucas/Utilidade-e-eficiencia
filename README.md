@@ -1,10 +1,10 @@
-# Parcela Leve – Tampermonkey
+# Calculadora PL – Tampermonkey
 
 Script Tampermonkey para facilitar o cálculo da PL no simulador de preços do SF.
 
 ---
 
-## 🔧 Como instalar
+## Como instalar
 
 1. Instale a extensão Tampermonkey;
 2. Ative o modo desenvolvedor;
