@@ -9,6 +9,8 @@
 // @match        https://metricas2025.up.railway.app/periodo-02
 // @match        https://metricas2025.up.railway.app/periodo-03
 // @match        https://metricas2025.up.railway.app/periodo-04
+// @updateURL    https://raw.githubusercontent.com/L0R0Lucas/Utilidade-e-eficiencia/main/scripts/Copia-rapidinho.user.js
+// @downloadURL  https://raw.githubusercontent.com/L0R0Lucas/Utilidade-e-eficiencia/main/scripts/Copia-rapidinho.user.js
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_notification
