@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copia rapidinho
 // @namespace    https://utilidade-e-eficiencia
-// @version      1.1
+// @version      1.2
 // @description  Copia dados do chat e cola no Métricas apenas nas telas de lançamento.
 // @author       L0R0Lucas
 // @match        https://abramudare.chatpolos.com.br/*
@@ -18,9 +18,9 @@
 // @run-at       document-idle
 // ==/UserScript==
 
-const XPATH_NOME = '/html/body/app-root/app-main-layout/div/div/app-index/div/div[3]/div[2]/app-info-chat-v2/div/div[6]/div[1]/div/div[2]/input';
-const XPATH_MATRICULA = '/html/body/app-root/app-main-layout/div/div/app-index/div/div[3]/div[2]/app-info-chat-v2/div/div[6]/div[12]/div/div[2]/input';
-const XPATH_POLO = '/html/body/app-root/app-main-layout/div/div/app-index/div/div[3]/div[2]/app-info-chat-v2/div/div[6]/div[4]/div/div[2]/input';
+const XPATH_NOME = '/html/body/app-root/app-main-layout/div/div/app-index/div/app-chat-details-sidebar/div/div[2]/app-info-chat-v2/div/div[6]/div[1]/div/div[2]/input';
+const XPATH_MATRICULA = '/html/body/app-root/app-main-layout/div/div/app-index/div/app-chat-details-sidebar/div/div[2]/app-info-chat-v2/div/div[6]/div[12]/div/div[2]/input';
+const XPATH_POLO = '/html/body/app-root/app-main-layout/div/div/app-index/div/app-chat-details-sidebar/div/div[2]/app-info-chat-v2/div/div[6]/div[4]/div/div[2]/input';
 const XPATH_ANCORAGEM_BOTAO = '/html/body/app-root/app-main-layout/div/div/app-index/div/div[5]/div[2]/app-info-chat-v2/div/div[6]/div[53]/div/div[2]/input';
 
 const STORAGE_KEY = 'ponte_chat_registro_v2';
